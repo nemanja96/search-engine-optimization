@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main */
+main {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px;
+}
+
+main h1 {
+  font-size: 2.5em;
+}
+
+main h2 {
+  font-size: 1.7em;
+  font-weight: 100;
+  color: #444;
+}
+
+main .steps {
+  padding-top: 50px;
+  max-width: 800px;
+}
+
+main .steps h2 {
+  font-size: 2em;
+  padding-bottom: 10px;
+  color: #000;
+}
+
+main .steps code {
+  display: inline-block;
+  background: #03045e;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+main .steps code span {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+main .steps img {
+  display: block;
+  width: 100%;
+}
+
+main .steps .good {
+  margin-top: 10px;
+  color: #555;
+}
+
+main .steps .good span {
+  color: green;
+  font-weight: bold;
+}
+
+main .steps .bad {
+  margin-top: 10px;
+  color: #555;
+}
+
+main .steps .bad span {
+  color: #d00000;
+  font-weight: bold;
+}
+
+/* Main End */
+/* Footer */
+footer {
+  padding: 70px;
+  text-align: center;
+  background: #03045e;
+}
+
+footer #social-networks ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #social-networks ul img {
+  width: 45px;
+  margin: 15px;
+}
+
+footer p {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 1.1em;
+}
+
+/* Footer End */
+/*# sourceMappingURL=style.css.map */
